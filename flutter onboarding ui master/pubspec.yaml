@@ -1,0 +1,54 @@
+name: flutter_onboarding_ui
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+  flutter_svg: ^0.17.3+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - assets/images/
+   - assets/images/t.png
+   - assets/images/u.png
+   - assets/images/x.png
+   - assets/images/z.png
+   - assets/images/hh.png
+   - assets/images/c.png
+   - assets/images/k.png
+   - assets/images/aws.jpg
+   - assets/images/asd.jpg
+   - assets/images/afg.jpg
+   - assets/images/hgf.jpg
+   - assets/images/rte.jpg
+   - assets/images/wwt.jpg
+   - assets/images/nmb.jpg
+
+  fonts:
+   - family: CM Sans Serif
+     fonts:
+       - asset: assets/fonts/cm_sans_serif_2012.ttf
+
+   - family: Cairo-Regular
+     fonts:
+       - asset: assets/fonts/Cairo-Regular.ttf
+
+   - family: Cairo-SemiBold
+     fonts:
+       - asset: assets/fonts/Cairo-SemiBold.ttf
